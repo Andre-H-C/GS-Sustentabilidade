@@ -1,0 +1,42 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("dados_energia_2meses.csv")
+
+df_antes = df[df["mes"] == "antes"]
+df_depois = df[df["mes"] == "depois"]
+
+df.head()
+
+plt.figure(figsize=(10,5))
+plt.plot(df_antes["dia"], df_antes["consumo_kWh"], marker="o")
+plt.title("Consumo de energia ANTES dos painéis")
+plt.xlabel("Dia")
+plt.ylabel("kWh")
+plt.grid(True)
+plt.show()
+
+plt.figure(figsize=(10,5))
+plt.plot(df_antes["dia"], df_antes["consumo_kWh"], marker="o", label="Antes")
+plt.plot(df_depois["dia"], df_depois["consumo_kWh"], marker="o", label="Depois")
+plt.title("Consumo de energia ANTES e DEPOIS dos painéis")
+plt.xlabel("Dia")
+plt.ylabel("kWh")
+plt.legend()
+plt.grid(True)
+plt.show()
+
+df_antes_sorted = df_antes.sort_values("dia").reset_index(drop=True)
+df_depois_sorted = df_depois.sort_values("dia").reset_index(drop=True)
+
+df_economia = pd.DataFrame({
+    "dia": df_depois_sorted["dia"],
+    "economia_kWh": df_antes_sorted["consumo_kWh"] - df_depois_sorted["consumo_kWh"]
+})
+
+plt.figure(figsize=(10,5))
+plt.bar(df_economia["dia"], df_economia["economia_kWh"])
+plt.title("Economia diária de energia")
+plt.xlabel("Dia")
+plt.ylabel("kWh")
+plt.show()
