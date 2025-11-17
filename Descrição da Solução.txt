@@ -1,0 +1,9 @@
+O notebook criado no Colab analisa o consumo energético mensal de uma empresa fictícia antes e depois da adoção de energia solar. 
+A ideia é identificar desperdícios, comparar os desempenhos e observar se há ganhos ambientais e econômicos.
+
+Tanto os dados dos 30 dias sem o uso de painés solares, como os do mês seguinte (dessa vez com os painéis) foram simulados por IA,
+que foi inspirada por uma matéria que indica economias mensais médias entre 40% e 70% para empresas que implementam sistemas de energia solar. 
+Portanto, a geração dos dados foi coerente, e não arbtirária.
+
+
+
