@@ -1,0 +1,20 @@
+O notebook criado no Colab analisa o consumo energético mensal de uma empresa fictícia antes e depois da adoção de energia solar. 
+A ideia é identificar desperdícios, comparar os desempenhos e observar se há ganhos ambientais e econômicos.
+
+Tanto os dados dos 30 dias sem o uso de painés solares, como os do mês seguinte (dessa vez com os painéis) foram simulados por IA,
+que foi inspirada por uma matéria que indica economias mensais médias entre 40% e 70% para empresas que implementam sistemas de energia solar. 
+Portanto, a geração dos dados foi coerente, e não arbtirária.
+
+O primeiro gráfico mostra o consumo energético do primeiro mês, sem painéis solares.
+
+Depois, são comparados os dados dos dois meses, com o segundo mês fazendo uso de energia solar.
+Fica evidente a sensível redução de desperdícios, além do impacto positivo para o meio-ambiente.
+
+Também foi calculada a economia diária, comparando o consumo original e o consumo após a instalação em cada dia do mês.
+Claro que o "dia X" de cada mês não é idêntico em suas condições, mas o gráfico permite que se tenha uma ideia do sucesso da aplicação dos painéis solares.
+
+Conclusão:
+A análise mostra que a adoção de painéis solares reduziu significativamente o consumo de energia da empresa, diminuindo custos operacionais.
+Além disso, a redução das emissões de CO₂ contribui diretamente para práticas sustentáveis que vem sendo adotadas por empresas modernas, 
+beneficiando o meio-ambiente e melhorando a imagem da empresa, o que pode ser traduzido em lucro financeiro através de maior engajamento do público geral e de investidores.
+No futuro do trabalho, soluções como essa tornam as empresas mais inteligentes e alinhadas às demandas ambientais e econômicas.
