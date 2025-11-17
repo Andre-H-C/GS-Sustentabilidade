@@ -1,4 +1,8 @@
 O que cada arquivo do repositório contém:
 
 "Matéria da EU Solar": link da matéria que inspirou a IA na simulação dos dados.
-"Dados simulados": dados gerados pela IA.
+"dados_energia_2meses": dados gerados pela IA. Este arquivo .csv é carregado no Colab para que o notebook possa ser executado.
+"Link do Colab": link do notebook no Colab.
+"Código em Python": código que está no notebook do Colab.
+"Descrição da Solução": explicação do objetivo, desenvolvimento e conclusão deste trabalho.
+"Vídeo no YouTube": link do vídeo rodando e explicando o notebook.
